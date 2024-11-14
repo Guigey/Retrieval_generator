@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Random Generator</h1>
+    <nav>
+      <ul>
+        <li><a href="topics.html">Topics</a></li>
+        <li><a href="question.html">Question Entry</a></li>
+        <li><a href="random.html">Random Generator</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Generate Random Questions</h2>
+    <label for="question-count">Number of questions to generate:</label>
+    <input type="range" id="question-count" name="question-count" min="1" max="10" value="1">
+    <span id="count-label">1</span>
+    <button>Generate</button>
+    <div id="result"></div>
+  </main>
+</body>
+</html>
